@@ -1,0 +1,73 @@
+@import "tailwindcss"
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.letter{
+  background-image: url('../news-letter-bg.png');
+  width: 100%;
+  height: 533px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.trusted-img{
+    margin: 0;
+    margin-left: 500px;
+    margin-bottom: -500px;
+    width: 286px;
+    height: 286px;
+    position:absolute;
+ 
+}
+.child > div {
+  flex: 1;
+  flex-direction: row;
+}
+ mt-0 ml-[400px] mb-[-100px] w-[286px] h-[286px] overline"
+@media screen and (max-width: 576px) {
+ 
+  .naver-item{
+    display: none;
+  }
+  .always-fresh{
+    flex-direction: column-reverse;
+    width: 100%;
+    border: 1px solid red;
+    margin: 0px;
+
+   
+  }
+  .always{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .always-para{
+   margin-top: 28px;
+   margin-left: 16px;
+   margin-left: 16px;
+  }
+
+  .card{
+    grid-template-columns: 2fr;
+    
+  }
+  .trusted-img{
+     display: none;
+  }
+  .plants-lover{  
+       flex-direction: column;
+}
+.plants-content{
+  width: 100%;
+  height: 50%;
+  margin: 15px ;
+}
+
+}
