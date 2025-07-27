@@ -25,10 +25,17 @@
     height: 286px;
     position:absolute;
     top: 2300px;
- 
 }
  
 @media screen and (max-width:576px){
+  
+   .header{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 16px;
+   }
+
   .navber-item{
     display: none;
   }
@@ -40,25 +47,76 @@
     border: 1px solid red;
     margin: 0px;
 
-   
   }
+
   .always{
     font-size: 24px;
     font-weight: 700;
   }
+
   .always-para{
    margin-top: 28px;
    margin-left: 16px;
    margin-left: 16px;
   }
-
-  .card{
-    grid-template-columns: 2fr;
-    
+  .our-plants{
+   justify-self: center;
+   text-align: center;
+   margin-right: 28px;
+   margin-left: 28px;
   }
-  
+   .our-h{
+   font-size: 24px;
+   font-weight: 700;
+  }
+  .our-p{
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+  }
+  .card-number{
+    display: grid;
+    grid-template-columns: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card-1{
+   
+    width: 171px;
+    height: 340px;
+    margin: 12px;
+  }
+
+  .card-img{
+    width: 171px;
+    height: 196px;
+  }
+  .card-h{
+   width: 96px;
+   height: 12px;
+   font-weight: 16px;
+   font-weight: 500;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+  .card-st{
+   width: 59;
+   height: 12px;
+   font-size: 16px;
+   font-weight: 700;
+   margin-bottom: 30px;
+   text-align: center;
+  }
+  .card-btn{
+   width: 171px;
+   height: 50px;
+   font-size: 16px;
+    font-weight: 400;
+  }  
+ 
   .plants-lover{  
-       flex-direction: column;
+  flex-direction: column;
 }
         .plants-content{   
   width: 100%;
@@ -68,7 +126,16 @@
 .trusted-img{
      display: none;
   }
-  
+
+  .flower-price{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+  }
+.flower-price-2{
+  margin: 0px;
+}
 }
   
 

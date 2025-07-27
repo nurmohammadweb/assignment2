@@ -13,16 +13,19 @@
 <body class=".noto-serif">
   <header>
     <nav class="md:ml-[150px] mr-[150px] mt-[30px] flex justify-between items-center">
-      <img src="logo.png" alt="logo">
+      <div class="header"><img src="logo.png" alt="logo"></div>
       <ul class="flex">
         <li class="navber-item text-[#252432] mr-[48px]">Home</li>
         <li class="navber-item text-[#8987A1] mr-[48px]">Shop</li>
         <li class="navber-item text-[#8987A1] mr-[48px]">About</li>
-        <li class="flex items-center gap-2"><img class="w-[22px] h-[15px]" src="shopping icon.png"
-            alt="shopping icon inline">
-          <p class="text-[#252432]">Cart
-            ($56)</p>
-        </li>
+        <div class="header">
+          <li class="flex items-center gap-2"><img class="w-[22px] h-[15px]" src="shopping icon.png"
+              alt="shopping icon inline">
+            <p class="text-[#252432]">Cart
+              ($56)</p>
+          </li>
+        </div>
+
       </ul>
     </nav>
     <div class="items-center  max-w-[1440px] m-0 m-auto  mb-[0px]  banner">
@@ -43,9 +46,9 @@
 
   <main class="max-w-[1440px] m-0 m-auto">
     <section>
-      <div class="justify-center items-center text-center mr-[276px] ml-[276px]">
-        <h1 class="text-[50px] font-bold"><span class="text-[#E95A08]">Our</span> Plants</h1>
-        <p class=" text-[22px] font-normal text-[#6B7280] w-[888px] h-[55px]">
+      <div class="our-plants justify-center items-center text-center mr-[276px] ml-[276px]">
+        <h1 class="our-h text-[50px] font-bold"><span class="text-[#E95A08]">Our</span> Plants</h1>
+        <p class="our-p text-[22px] font-normal text-[#6B7280] w-[888px] h-[55px]">
           Indulge your
           senses with
           the
@@ -58,108 +61,120 @@
           we
           offer a wide variety of fresh.</p>
       </div>
-      <div class="grid grid-cols-4 mr-[150px] ml-[150px] card">
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px] card-content">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+      <div class="card-number grid grid-cols-4 mr-[150px] ml-[150px]">
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
-        <div class="w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
-          <img class="" src="sample-flower-image.png" alt="sample-flower">
-          <div class="">
-            <h4 class="font-bold">Lily Blossom</h4>
-            <h3 class="font-bold">20 USD</h3>
-            <button class="border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO CART</button>
+        <div class="card-1 w-[260px] h-[400px] justify-center items-center text-center m-[25px]">
+          <img class="card-img" src="sample-flower-image.png" alt="sample-flower">
+          <div class="card-h">
+            <h4 class="card-h font-bold">Lily Blossom</h4>
+            <h3 class="card-st font-bold">20 USD</h3>
+            <button class="card-btn border-2 w-[260px] h-[50px] text-[#FFFFFF] bg-[#E95A08] font-semibold ">ADD TO
+              CART</button>
           </div>
         </div>
       </div>
     </section>
 
     <section class="mt-[210px]">
-      <div class="navber-item" <img src="trusted-badge.png" alt="trusted-badge">
+      <div class="trusted-img navber-item"> <img src="trusted-badge.png" alt="#6B7280">
       </div>
 
       <div class="plants-content mr-[150px] ml-[150px]">
@@ -172,21 +187,24 @@
             <h1 class="font-bold text-[50px]">Flower & Plants <br>Lover</h1>
             <ul class="list-inside list-disc">
               <li>
-                <p class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                <p class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                  From
                   classic roses to
                   exotic
                   blooms, we
                   offer a wide variety of fresh.<br></p>
               </li>
               <li>
-                <p class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                <p class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                  From
                   classic roses to
                   exotic
                   blooms, we
                   offer a wide variety of fresh.<br></p>
               </li>
               <li>
-                <p class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                <p class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                  From
                   classic roses to
                   exotic
                   blooms, we
@@ -199,9 +217,10 @@
     </section>
 
     <section class="mb-[112px]">
-      <div class="justify-center items-center text-center mr-[276px] ml-[276px]">
-        <h3 class="text-[50px] font-bold mt-[133px]"> <span class="text-[#E95A08]">Latest</span> Deals</h3>
-        <p class="text-[22px] text-[#6B7280] mb-[120px]">Indulge your senses with the beauty and fragrance of our fresh
+      <div class="our-plants justify-center items-center text-center mr-[276px] ml-[276px]">
+        <h3 class="our-h text-[50px] font-bold mt-[133px]"> <span class="text-[#E95A08]">Latest</span> Deals</h3>
+        <p class="our-p text-[22px] text-[#6B7280] mb-[120px]">Indulge your senses with the beauty and fragrance of our
+          fresh
           flower
           shop. From classic
           roses to
@@ -209,24 +228,25 @@
           blooms, we
           offer a wide variety of fresh.</p>
       </div>
-      <div class="flex">
-        <div class="h-[50%]  ml-[330px]">
-          <div class="relative inline-block">
-            <img class="bg-[deal-bloom.png] text-center mb-[25px] rounded-[10px]" src="deal-bloom.png" alt="">
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-white">
-              <h1 class="text-[20px] font-bold mb-[19px ] text-center">60% Off | Bloom Plant</h1>
-              <p class="text-center font-semibold underline"><a href="">Shop Now</a></p>
+      <div class="flex flower-price">
+        <div class="flower-price-2">
+          <div class="h-[50%]  ml-[330px]">
+            <div class="relative inline-block">
+              <img class="bg-[deal-bloom.png] text-center mb-[25px] rounded-[10px]" src="deal-bloom.png" alt="">
+              <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-white">
+                <h1 class="text-[20px] font-bold mb-[19px ] text-center">60% Off | Bloom Plant</h1>
+                <p class="text-center font-semibold underline"><a href="">Shop Now</a></p>
+              </div>
             </div>
-          </div>
-          <div class="relative inline-block">
-            <img class="bg-[deal-ana.png] mr-[150px] text-center rounded-[10px]" src="deal-ana.png" alt="">
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-white">
-              <h1 class="text-[20px] font-bold mb-[19px ] text-center">30% Off | Bloom Plant</h1>
-              <p class="text-center font-semibold underline"><a href="">Shop Now</a></p>
+            <div class="relative inline-block">
+              <img class="bg-[deal-ana.png] mr-[150px] text-center rounded-[10px]" src="deal-ana.png" alt="">
+              <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-white">
+                <h1 class="text-[20px] font-bold mb-[19px ] text-center">30% Off | Bloom Plant</h1>
+                <p class="text-center font-semibold underline"><a href="">Shop Now</a></p>
+              </div>
             </div>
           </div>
         </div>
-
         <div class="relative inline- block w-[100%] gap-0">
           <img class="bg-[deal-zabo.png] rounded-[10px] h-[100%] w-[100%]" src="deal-zabo.png" alt="">
           <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-white">
