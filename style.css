@@ -59,11 +59,18 @@
    margin-left: 16px;
    margin-left: 16px;
   }
+
+   .card-section{
+    margin-bottom: -200px;
+   }
+
   .our-plants{
    justify-self: center;
    text-align: center;
    margin-right: 28px;
    margin-left: 28px;
+   
+
   }
    .our-h{
    font-size: 24px;
@@ -75,16 +82,17 @@
     height: 68px;
   }
   .card-number{
-    display: grid;
-    grid-template-columns: column;
     margin-left: 0;
     margin-right: 0;
+    display: grid;
+    grid-template-columns: 2fr;
   }
   .card-1{
-   
+    text-align: center;
     width: 171px;
     height: 340px;
     margin: 12px;
+    
   }
 
   .card-img{
@@ -96,23 +104,26 @@
    height: 12px;
    font-weight: 16px;
    font-weight: 500;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+   margin-bottom: 10px;
+  }
+  .card-hhhh{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .card-st{
    width: 59;
    height: 12px;
    font-size: 16px;
    font-weight: 700;
-   margin-bottom: 30px;
-   text-align: center;
+   margin-bottom: 20px;
   }
   .card-btn{
    width: 171px;
    height: 50px;
    font-size: 16px;
-    font-weight: 400;
+   font-weight: 400;
+   margin: 0px;
   }  
  
   .plants-lover{  
@@ -123,9 +134,13 @@
    height: 50%;
    margin: 15px ;
   }
+
   .trusted-img{
      display: none;
    }
+
+
+
   .flower-price{
     flex-direction: column;
   }
@@ -133,52 +148,101 @@
     width: 100%;
     height: 100%;
     margin: 5px;
+    border-radius: 30px;
   }
  
   .flower-price-2{
     width: 100%;
     height: 100%;
     margin: 5px;
+    border-radius: 30px;
   }
   .flower-price-3{
     width: 100%;
     height: 100%;
     margin: 10px;
+    margin-bottom: -90px;
+    border-radius: 30px;
   }
   .letter{
-   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
-    height: 100%;
+    height: 100%;  
   }
   .letter-bg{
-   width: 475px;
+   width: 470px;
    height: 275px;
-   justify-content: center;
-   align-items: center;
    margin: 10px;
-   border-radius: 10px;
+ 
    
   }
   .join-h{
+    justify-content: center;
+    align-items: center;
     width: 235px;
     height: 27px;
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
-    
+    margin-top: -100px;
+    padding: 0px;
   }
   .h-btn{
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0px;
+    margin-left: -100px; 
+    
   }
   .btn-s{
+    width: 150px;
     height: 50px;
+    margin: 0px;
   }
   .btn-w{
-    width: 300px;
+    width: 200px;
     height: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0px;
+  }
+
+  .form{
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+  }
+
+  .footer-1{
+    grid-template-columns: 2fr;
+    margin: 20px;
+  }
+  
+  .footer-2{
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+
+  .footer-m{
+    width: 359px;
+    height: 173px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+   .footer-p{
+     font-size: 16px;
+     font-weight: 100;
+     margin: 0px;
+   }
+
+  .footer-i{
+    align-items: center
+    height: 36px;
+    gap: 20px;
+    margin-left: 100px;
   }
 }
   
