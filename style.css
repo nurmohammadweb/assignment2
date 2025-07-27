@@ -13,7 +13,7 @@
   background-image: url('../news-letter-bg.png');
   width: 100%;
   height: 533px;
-  background-size: auto;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -116,26 +116,70 @@
   }  
  
   .plants-lover{  
-  flex-direction: column;
-}
-        .plants-content{   
-  width: 100%;
-  height: 50%;
-  margin: 15px ;
-}
-.trusted-img{
-     display: none;
+   flex-direction: column;
   }
-
+   .plants-content{   
+   width: 100%;
+   height: 50%;
+   margin: 15px ;
+  }
+  .trusted-img{
+     display: none;
+   }
   .flower-price{
     flex-direction: column;
+  }
+  .flower-price-1{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+  }
+ 
+  .flower-price-2{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+  }
+  .flower-price-3{
     width: 100%;
     height: 100%;
     margin: 10px;
   }
-.flower-price-2{
-  margin: 0px;
-}
+  .letter{
+   
+    width: 100%;
+    height: 100%;
+  }
+  .letter-bg{
+   width: 475px;
+   height: 275px;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   border-radius: 10px;
+   
+  }
+  .join-h{
+    width: 235px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    
+  }
+  .h-btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+  }
+  .btn-s{
+    height: 50px;
+  }
+  .btn-w{
+    width: 300px;
+    height: 50px;
+  }
 }
   
 
