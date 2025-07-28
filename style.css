@@ -48,10 +48,14 @@ ul:hover{
 
 @media screen and (max-width:576px){
   
-   .header{
+   .img-shopping{
     justify-content: space-between;
-    text-align: center;
     align-items: center;
+    text-align: center;
+    margin: 20px;
+   }
+
+   .header{
     margin: 16px;
    }
 
@@ -59,13 +63,11 @@ ul:hover{
     display: none;
   }
 
-
   .always-fresh{
     flex-direction: column-reverse;
     width: 100%;
     border: 1px solid red;
     margin: 0px;
-
   }
 
   .always{
@@ -192,12 +194,11 @@ ul:hover{
     height: 100%;  
   }
   .letter-bg{
-   width: 470px;
+   width: 500px;
    height: 275px;
-   margin: 10px;
- 
-   
+   margin: 20px;
   }
+
   .join-h{
     justify-content: center;
     align-items: center;
@@ -208,19 +209,21 @@ ul:hover{
     margin-top: -100px;
     padding: 0px;
   }
+
   .h-btn{
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0px;
     margin-left: -100px; 
-    
   }
+
   .btn-s{
     width: 150px;
     height: 50px;
     margin: 0px;
   }
+  
   .btn-w{
     width: 200px;
     height: 50px;
