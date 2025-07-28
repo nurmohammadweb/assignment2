@@ -213,20 +213,20 @@ ul:hover{
     margin-top: -20px;
   }
   .flower-price-1{
-    width: 361px;
+    width: 380px;
     height: 100%;
     margin: 3px;
     border-radius: 30px;
   }
  
   .flower-price-2{
-    width: 361px;
+    width: 380px;
     height: 100%;
     margin: 3px;
     border-radius: 30px;
   }
   .flower-price-3{
-    width: 361px;
+    width: 380px;
     height: 100%;
     margin: 5px;
     margin-bottom: -90px;
@@ -270,17 +270,19 @@ ul:hover{
     align-items: center;
     text-align: center;
     margin: 0px;
-    margin-left: -110px; 
+    margin-left: -140px; 
   }
 
   .btn-s{
-    width: 150px;
+    width: 100px;
     height: 50px;
     margin: 0px;
+    padding: 0 5px 0;
+
   }
 
   .btn-w{
-    width: 200px;
+    width: 160px;
     height: 50px;
     font-size: 16px;
     font-weight: 100;
