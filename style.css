@@ -109,11 +109,9 @@ ul:hover{
     grid-template-columns: repeat(2, 1fr);
   }
   .card-1{
-    text-align: center;
     width: 171px;
     height: 340px;
     margin: 12px;
-    
   }
 
   .card-img{
@@ -126,11 +124,12 @@ ul:hover{
    font-weight: 16px;
    font-weight: 500;
    margin-bottom: 10px;
+  
   }
   .card-hhhh{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+   justify-content: center;
+   align-items: center;
+   text-align: center; 
   }
   .card-st{
    width: 59;
@@ -138,6 +137,7 @@ ul:hover{
    font-size: 16px;
    font-weight: 700;
    margin-bottom: 20px;
+   
   }
   .card-btn{
    width: 171px;
