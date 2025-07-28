@@ -12,6 +12,8 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 120px;
+
 }
 .trusted-img{
     margin: 0;
@@ -42,20 +44,22 @@ ul:hover{
   color: rgb(3, 247, 247);
 }
 .hide{
-display: none;
+ display: none;
 }
 
 @media screen and (max-width:576px){
   
+  /* header-container */
+
+  .header-container{
+    
+  }
    .img-shopping{
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    text-align: center; 
     margin: 20px;
-   }
-
-   .header{
-    margin: 16px;
+    
    }
 
   .navber-item{
@@ -65,7 +69,6 @@ display: none;
   .always-fresh{
     flex-direction: column-reverse;
     width: 100%;
-    border: 1px solid red;
     margin: 0px;
   }
 
@@ -85,23 +88,32 @@ display: none;
     margin-left: -20px;
    }
 
+   /* section Our plants */
+  
   .our-plants{
    justify-self: center;
    text-align: center;
    margin-right: 28px;
    margin-left: 28px;
+   margin-top: 65px;
+   margin-bottom: 28px;
   }
    .our-h{
    font-size: 24px;
    font-weight: 700;
-   margin-top: 20px;
-   margin-bottom: 20px;
   }
   .our-p{
     font-size: 14px;
     width: 336px;
     height: 68px;
   }
+
+/* card div start */
+
+   .card-section{
+     margin-bottom: 20px;
+   }
+
   .card-number{
     margin-left: 40px;
     margin-right: 0;
@@ -146,59 +158,95 @@ display: none;
    font-weight: 400;
    margin: 0px;
   }  
+
+  /* flower-plants-lover */
+   .flower-plants-lover-container{
+    margin-top: 0;
+   }
+  .plants-content{   
+   margin-left: 0;
+   margin-right: 0;
+  }
  .flower-lover{
-  width: 100%;
-  margin-left: 10px;
+   flex-direction: column;
+   margin: 5px;
  }
+ .flower-plants-lover{
+   margin-top: 18px;
+   width: 90%;
+  }
  .flower-lover-h{
   font-size: 24px;
   font-weight: 700;
  }
+ .lover-br{
+  display: none;
+ }
  .flower-lover-p{
   font-size: 14px;
+  margin: 0;
  }
-  .plants-lover{  
-   flex-direction: column;
-   width: 95%;
-  }
-   .plants-content{   
-   width: 100%;
-   height: 50%;
-   margin: 15px ;
-  }
-
   .trusted-img{
      display: none;
    }
+
+    /* section latest deals */
+.latest-deals{
+   justify-self: center;
+   text-align: center;
+   margin-right: 28px;
+   margin-left: 28px;
+   margin-top: 20px;
+  }
+   .latest-h{
+   font-size: 24px;
+   font-weight: 700;
+  }
+   .latest-p{
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+  }
+
   .flower-price{
     flex-direction: column;
     margin-top: -20px;
   }
   .flower-price-1{
-    width: 100%;
+    width: 361px;
     height: 100%;
     margin: 3px;
     border-radius: 30px;
   }
  
   .flower-price-2{
-    width: 100%;
+    width: 361px;
     height: 100%;
     margin: 3px;
     border-radius: 30px;
   }
   .flower-price-3{
-    width: 100%;
+    width: 361px;
     height: 100%;
     margin: 5px;
     margin-bottom: -90px;
     border-radius: 30px;
   }
+  .price-font-h{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .price-font-p{
+    font-size: 16px;
+    font-weight: 500;
+  }
+/* last section join the colorful Bunch */
+
   .letter{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 98%;
+    width: 95%;
     height: 100%;  
   }
   .letter-bg{
@@ -222,7 +270,7 @@ display: none;
     align-items: center;
     text-align: center;
     margin: 0px;
-    margin-left: -70px; 
+    margin-left: -110px; 
   }
 
   .btn-s{
