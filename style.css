@@ -263,14 +263,13 @@ ul:hover{
   }
 
   .join-h{
-    justify-content: center;
-    align-items: center;
-    width: 235px;
-    height: 27px;
-    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
     font-weight: 700;
     margin-top: -100px;
-    padding: 0px;
+  
   }
 
   .h-btn{
@@ -278,15 +277,18 @@ ul:hover{
     align-items: center;
     text-align: center;
     margin: 0px;
-    margin-left: -140px; 
+    margin-left: -140px;
+    
   }
-
+   .join-write{
+    padding-left: 130px;
+   }
   .btn-s{
     width: 100px;
     height: 50px;
     margin: 0px;
     padding: 0 5px 0;
-
+   
   }
 
   .btn-w{
@@ -297,17 +299,17 @@ ul:hover{
     margin: 0px;
   }
    .write-email{
-    padding-left: 20px;
-    padding-bottom: 15px;
-    padding-bottom: 15px;
-    /* padding-right: 114px; */
-    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF; 
    }
 
   .form{
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 100%;
     padding: 0px;
+
   }
   .joni-the-colorful{
     margin: 2%;
@@ -340,7 +342,7 @@ ul:hover{
     align-items: center;
     height: 36px;
     gap: 20px;
-    margin-left: 100px;
+    margin-left: 130px;
     
   }
 }
